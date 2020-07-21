@@ -1,0 +1,14 @@
+//
+@use './use/variables';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: variables.$gray;
+}
+
+#app {
+    color: variables.$text_light;
+}
