@@ -116,7 +116,7 @@ return [
         '46.101.135.214' => [
             'deploy_path' => '/var/www/urmotodo.tk',
             'user' => 'deployer',
-            'identifyFile' => env('DEPLOYER_KEY', '~/.ssh/public_key.pub')
+            'identifyFile' => '~/.ssh/id_rsa'
         ],
     ],
 
