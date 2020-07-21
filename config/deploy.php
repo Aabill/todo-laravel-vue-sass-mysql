@@ -116,7 +116,7 @@ return [
         '46.101.135.214' => [
             'deploy_path' => '/var/www/urmotodo.tk',
             'user' => 'deployer',
-            'identifyFile' => '~/.ssh/id_rsa'
+            'identityFile' => env('DEPLOYER_KEY', '~/.ssh/public_key.pub' ),
         ],
     ],
 
@@ -163,4 +163,10 @@ return [
 
     'custom_deployer_file' => false,
 
+    'writeable_dirs' => [
+        'storage',
+        'storage/framework',
+        'storage/logs'
+    ],
+    'writable_mode' => 'chmod'
 ];
