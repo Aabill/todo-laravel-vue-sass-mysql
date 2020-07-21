@@ -1,1 +1,2 @@
-# test
+# Install packages
+`npm install`
