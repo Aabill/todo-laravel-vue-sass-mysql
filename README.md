@@ -1,5 +1,5 @@
 # Install packages
-`npm install`
+* run `npm install` to install packages.
 
 # Database setup
 * change `.env.example` to `.env` .
